@@ -1,0 +1,7 @@
+{
+  "name": "aba_payment",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
