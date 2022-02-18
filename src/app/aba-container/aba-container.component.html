@@ -1,0 +1,32 @@
+<ion-content>
+    <ion-list>
+        <ion-item button (click)="onClicked()">
+            <ion-label style="margin:5px;">
+                <ion-row>
+                    <ion-col size="3">
+                        <ion-img style="width: 47px; height: 47px;" src="assets/images/ic_generic.png"></ion-img>
+                    </ion-col>
+                    <ion-col size="9">
+                        <h2>{{strings.creditOrDebitCardLabel}}</h2>
+                        <ion-img style="width: 100px;" src="assets/images/ic_cards.png"></ion-img>
+                    </ion-col>
+                </ion-row>
+            </ion-label>
+        </ion-item>
+        <ion-item button (click)="onClicked()">
+            <ion-label style="margin:5px;">
+                <ion-row>
+                    <ion-col size="3">
+                        <ion-img style="width: 47px; height: 47px;" src="assets/images/ic_payway.png"></ion-img>
+                    </ion-col>
+                    <ion-col size="9">
+                        <h2>{{strings.abaPayLabel}}</h2>
+                        <span style="color: grey;">{{strings.scanToPayWithABAMobileLabel}}</span>
+                    </ion-col>
+                </ion-row>
+            </ion-label>
+
+        </ion-item>
+
+    </ion-list>
+</ion-content>
